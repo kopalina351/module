@@ -4,7 +4,7 @@ import Module3.ListElement.SinglyList;
 
 public class DemoSinglyList {
 	public static void main(String[] args) {
-		SinglyList sl = new ListElement().new SinglyList();
+		SinglyList sl = new SinglyList();
         sl.addBack(1);
         sl.addBack(2);
         sl.addBack(3);
