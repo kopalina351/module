@@ -1,4 +1,4 @@
-package Module3;
+package Module3.src.main.java.Module3;
 
 import java.util.Random;
 

@@ -1,5 +1,4 @@
-package Module3;
-
+package Module3.src.main.java.Module3;
 
 public class CalculatorDemo {
 
