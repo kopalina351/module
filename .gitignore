@@ -1,0 +1,13 @@
+# Created by .ignore support plugin (hsz.mobi)
+target/
+reports/
+temp/
+.idea
+.project
+.classpath
+.settings
+.checkstyle
+drivers/
+*.iml
+*.ipr
+*.iws
