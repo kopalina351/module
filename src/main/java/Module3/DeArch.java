@@ -3,7 +3,8 @@ package Module3;
 import static java.lang.Integer.parseInt;
 
 public class DeArch {
-    public static void deArcheverStr(String archive) {
+    public String deArcheverStr(String archive) {
+        String result = "";
         String counterArch;
         System.out.println(archive);
         for (int i = 0; i < archive.length(); i = i + 2) {
@@ -12,12 +13,14 @@ public class DeArch {
                 counterArch = archive.substring(i, i + 1);
                     for (int j = 0; j < parseInt(counterArch); j++) {
                         System.out.print(archive.substring(i + 1, i + 2));
+                        result+=archive.substring(i + 1, i + 2);
                     }
             } else {
                 System.out.println("String " + "'" + archive + "'" + " can't be unzipped");
                 break;
             }
         }
+        return result;
     }
 }
 

@@ -1,17 +1,23 @@
 package Module3;
 
+/**
+ *
+ */
 public class Arch {
-
-    public void archiverStr(String engString) {
+    public String archiverStr(String engString) {
+        String result = "";
         char[] arr = engString.toCharArray();
         System.out.println(arr);
         int count = 0;
         char current = arr[0];
 
         for(int i = 0; i < arr.length; ++i) {
+
             if (current == arr[i]) {
                 ++count;
-            } else {
+            }
+            else {
+                result+=""+count+current;
                 System.out.print(count);
                 System.out.print(current);
                 current = arr[i];
@@ -19,14 +25,16 @@ public class Arch {
             }
 
             if (count > 9) {
-                System.out.print(count - 1);
+                System.out.print(count -1);
                 System.out.print(current);
+                result+=""+(count-1)+current;
                 current = arr[i];
                 count = 1;
             }
-        }
+        }result+=""+count+current;
 
         System.out.print(count);
         System.out.print(current);
+     return result;
     }
 }

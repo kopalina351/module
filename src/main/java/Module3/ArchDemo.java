@@ -3,12 +3,12 @@ package Module3;
 public class ArchDemo {
 
     public static void main(String[] args) {
-        Arch archiver = new Arch();
+        Arch arch = new Arch();
         DeArch deArch = new DeArch();
-        archiver.archiverStr("aaac444abbbbbbbbbbccccc");
+        arch.archiverStr("444ccc555777777");
         System.out.println();
         deArch.deArcheverStr("1c4d9v");
         System.out.println();
-        deArch.deArcheverStr("2cd9v");
+        deArch.deArcheverStr("cd9v95");
     }
 }
