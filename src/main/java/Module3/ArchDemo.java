@@ -9,6 +9,6 @@ public class ArchDemo {
         System.out.println();
         deArch.deArcheverStr("1c4d9v");
         System.out.println();
-        deArch.deArcheverStr("cd9v95");
+        deArch.deArcheverStr("c4d9v");
     }
 }

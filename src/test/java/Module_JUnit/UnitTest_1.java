@@ -19,20 +19,13 @@ public class UnitTest_1 {
     }
     @Test
     public void archiverStr2(){
-        assertEquals("343c3567", arch.archiverStr("444ccc555777777"));
-        System.out.println();
-    }
-
-
-    @Test
-    public void deArcheverStr1(){
-        assertEquals("cddddvvvvvvvvv", deArch.deArcheverStr("1c4d9v"));
+        assertEquals("3d1g2j7t", arch.archiverStr("dddgjjttttttt"));
         System.out.println();
     }
 
     @Test
-    public void deArcheverStr2(){
-        assertEquals("String 'cd9v95' can't be unzipped","", deArch.deArcheverStr("cd9v95"));
+    public void archiverStr3(){
+        assertEquals("34356718", arch.archiverStr("4445557777778"));
         System.out.println();
     }
 
