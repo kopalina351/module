@@ -2,39 +2,31 @@ package Module3;
 
 public class Person {
 	 private String name;
-	 private String surename;
+	 private String surname;
 	 private String email;
 	 
 	Person() {
 		this.name="Ivan";
-		this.surename="Ivanov";
+		this.surname="Ivanov";
 		this.email="IvanIvanov@email";
 	}
 	
 	public Person(String n, String s, String e){
 		this.name = n;
-		this.surename =s;
+		this.surname =s;
 		this.email = e;
-	   
 	}
-	
 
-	public void printPerson() {	
-	
-		System.out.println(this.name + " " + " " + this.surename + " " + " " + this.email);
-		
-	}		
-	
 	public String getName() {
-		return name;
+		return this.name;
 	}
-	
-	public String getSurename() {
-		return surename;
+
+	public String getSurname() {
+		return this.surname;
 	}
-	
+
 	public String getEmail() {
-		return email;
+		return this.email;
 	}
 	
 	public void setName(String name) {
@@ -42,12 +34,15 @@ public class Person {
 			this.name=name;
 		}
 	}
-	
-	public void setSurename(String surename) {
-		this.surename=surename;
+
+	public void setSurname(String surname) {
+		this.surname=surname;
 	}
-	
+
 	public void setEmail(String email) {
 		this.email=email;
+	}
+	public void printPerson() {
+		System.out.println(name + " " + " " + surname + " " + " " + email);
 	}
 }
